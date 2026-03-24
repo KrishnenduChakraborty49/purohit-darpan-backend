@@ -36,14 +36,14 @@ spring:
   cache:
     type: simple
 
-  ai:
-    openai:
-      api-key: ${OPENAI_API_KEY:sk-placeholder-not-configured}
-      chat:
-        options:
-          model: gpt-4o
-          temperature: 0.3
-          max-tokens: 2000
+#  ai:
+#    openai:
+#      api-key: ${OPENAI_API_KEY:sk-placeholder-not-configured}
+#      chat:
+#        options:
+#          model: gpt-4o
+#          temperature: 0.3
+#          max-tokens: 2000
 
   scheduling:
     enabled: true
@@ -67,6 +67,17 @@ server:
     include-message: always
     include-binding-errors: always
 
+
+  ai:
+    ollama:
+      base-url: http://127.0.0.1:11434
+      chat:
+        options:
+          model: llama3.2:1b
+          temperature: 0.3
+      embedding:
+        options:
+          model: mxbai-embed-large
 # JWT Configuration
 jwt:
   secret: ${JWT_SECRET:purohit-darpan-super-secret-key-must-be-at-least-256-bits-long-for-hs256}
