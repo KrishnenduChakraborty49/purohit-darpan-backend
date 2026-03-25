@@ -73,7 +73,11 @@ INSERT IGNORE INTO pujas (name, name_devanagari, description, duration_minutes, 
 
 ('Griha Pravesh', 'गृह प्रवेश',
  'Housewarming ceremony invoking Vastu Purusha and Panchdeva for blessing the new home.',
- 240, 'ADVANCED', 'Samskara', '/images/griha-pravesh.jpg', 1);
+ 240, 'ADVANCED', 'Samskara', '/images/griha-pravesh.jpg', 1),
+
+('Durga Puja', 'दुर्गा पूजा',
+ 'The grand celebration of Goddess Durga''s victory over the demon Mahishasura. Worship of the Divine Mother for strength, intellect, and prosperity.',
+ 300, 'ADVANCED', 'Shakti', '/images/durga-puja.jpg', 1);
 
 -- -------------------------------------------------------
 -- MANTRAS (Devanagari)
@@ -206,7 +210,31 @@ INSERT IGNORE INTO puja_steps (puja_id, step_order, title, title_devanagari, des
 </ol>
 <p>After aarti, pass the flame to all devotees to receive blessings. Do Pradakshina (circumambulation) 3 times. Receive prasad and distribute.</p>',
  'https://www.youtube.com/watch?v=example_aarti',
- 'The aarti is the most joyful part of the puja. Light the camphor or ghee diya. Hold it with both hands. Wave it in clockwise circles starting at the feet of Ganesha moving upward. Ring the bell as you chant the Aarti....');
+ 'The aarti is the most joyful part of the puja. Light the camphor or ghee diya. Hold it with both hands. Wave it in clockwise circles starting at the feet of Ganesha moving upward. Ring the bell as you chant the Aarti....'),
+
+(7, 1, 'Kalparambha & Bodhon', 'कल्पारम्भ एवं बोधन',
+ '<h3>कल्पारम्भ एवं बोधन - Invocation and Awakening</h3>
+<p>The formal start of Durga Puja on Shashthi. Bodhon means awakening Goddess Durga under a Bilva (Bael) tree.</p>',
+ 'https://www.youtube.com/watch?v=example_bodhon',
+ 'We begin Durga Puja with Bodhon on Shashthi tithi...'),
+
+(7, 2, 'Navapatrika Sthapana (Saptami)', 'नवपत्रिका स्थापना',
+ '<h3>नवपत्रिका स्थापना - Bathing the Nine Plants</h3>
+<p>On Saptami morning, nine types of plants representing nine forms of the Goddess are tied to a banana trunk, bathed in holy water, and established.</p>',
+ 'https://www.youtube.com/watch?v=example_navapatrika',
+ 'Navapatrika represents the presence of Durga in nature...'),
+
+(7, 3, 'Kumari Puja & Maha Ashtami', 'कुमारी पूजा एवं महा अष्टमी',
+ '<h3>महा अष्टमी पुष्पञ्जलि - Ashtami Anjali</h3>
+<p>The most important day of Durga Puja. Devotees offer flowers (Pushpanjali) chanting the Ashtami mantras fasting.</p>',
+ 'https://www.youtube.com/watch?v=example_ashtami',
+ 'The Ashtami Pushpanjali is offered with complete devotion...'),
+
+(7, 4, 'Sandhi Puja', 'संधि पूजा',
+ '<h3>संधि पूजा - The Sacred Juncture</h3>
+<p>Performed at the exact juncture when Ashtami ends and Navami begins. 108 lamps are lit and 108 lotuses are offered to Goddess Chamunda.</p>',
+ 'https://www.youtube.com/watch?v=example_sandhi',
+ 'Sandhi Puja requires precise timing and 108 lamps...');
 
 -- -------------------------------------------------------
 -- STEP_MANTRAS - map mantras to steps
@@ -243,7 +271,8 @@ INSERT IGNORE INTO resources (puja_id, title, resource_type, file_url, page_coun
 (2, 'Lakshmi Puja Manual', 'PDF', '/pdfs/lakshmi-paddhati.pdf', 60, FALSE),
 (3, 'Satyanarayan Vrat Katha', 'PDF', '/pdfs/satyanarayan-katha.pdf', 80, TRUE),
 (4, 'Sri Rudram with Translation', 'PDF', '/pdfs/sri-rudram.pdf', 120, FALSE),
-(5, 'Durga Saptashati (Full)', 'PDF', '/pdfs/durga-saptashati.pdf', 200, TRUE);
+(5, 'Durga Saptashati (Full)', 'PDF', '/pdfs/durga-saptashati.pdf', 200, TRUE),
+(7, 'Durga Puja Paddhati', 'PDF', '/pdfs/durga-puja-paddhati.pdf', 85, TRUE);
 
 -- -------------------------------------------------------
 -- HINDU FESTIVALS 2025 - 2026
@@ -304,7 +333,7 @@ INSERT IGNORE INTO hindu_festivals (name, name_devanagari, description, puja_id,
 
 ('Durga Puja', 'दुर्गा पूजा',
  'The grand celebration of Goddess Durga''s victory over the demon Mahishasura. Enormous pandals, cultural programs, and processions mark this 5-day festival in Bengal.',
- 5, '2025-10-02', 5, 25),
+ 7, '2025-10-02', 5, 25),
 
 ('Dussehra (Vijayadashami)', 'दशहरा / विजयादशमी',
  'Victory of Lord Rama over Ravana, celebrated on the tenth day after Navratri. Ravana effigies burned. Also marks Goddess Durga''s departure.',

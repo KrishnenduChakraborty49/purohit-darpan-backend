@@ -1,61 +1,61 @@
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\config\AIConfig.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\config\DataSeeder.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\config\FirebaseConfig.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\config\JwtAuthFilter.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\config\JwtUtil.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\config\SecurityConfig.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\controller\AIController.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\controller\AuthController.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\controller\NotificationController.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\controller\PanchangController.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\controller\ProgressController.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\controller\PujaController.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\dto\request\LoginRequest.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\dto\request\RegisterRequest.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\dto\response\AuthResponse.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\AiFeedback.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\AiQueryLog.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\HinduFestival.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\Mantra.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\NotificationLog.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\PanchangCache.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\PdfAnnotation.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\Puja.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\PujaStep.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\Resource.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\Samagri.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\StepMantra.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\StepSamagri.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\User.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\UserHighlight.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\UserNotificationPreferences.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\UserPujaProgress.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\UserSavedEvent.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\UserStepNote.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\entity\VideoBookmark.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\exception\GlobalExceptionHandler.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\PurohitDarpanApplication.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\AiFeedbackRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\AiQueryLogRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\HinduFestivalRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\MantraRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\NotificationLogRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\PanchangCacheRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\PdfAnnotationRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\PujaRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\PujaStepRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\ResourceRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\UserHighlightRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\UserNotificationPreferencesRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\UserPujaProgressRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\UserRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\UserSavedEventRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\UserStepNoteRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\repository\VideoBookmarkRepository.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\scheduler\NotificationScheduler.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\service\AIService.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\service\AuthService.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\service\FCMService.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\service\PanchangService.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\service\ProgressService.java
-C:\Users\proty\OneDrive\Complete WebDev\purohit\backend\src\main\java\com\purohitdarpan\service\UserDetailsServiceImpl.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\config\AIConfig.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\config\DataSeeder.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\config\FirebaseConfig.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\config\JacksonConfig.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\config\JwtAuthFilter.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\config\JwtUtil.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\config\SecurityConfig.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\controller\AIController.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\controller\AuthController.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\controller\NotificationController.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\controller\PanchangController.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\controller\ProgressController.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\controller\PujaController.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\dto\request\LoginRequest.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\dto\request\RegisterRequest.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\dto\response\AuthResponse.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\AiFeedback.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\AiQueryLog.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\HinduFestival.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\Mantra.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\NotificationLog.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\PanchangCache.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\PdfAnnotation.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\Puja.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\PujaStep.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\Resource.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\Samagri.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\StepMantra.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\StepSamagri.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\User.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\UserHighlight.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\UserNotificationPreferences.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\UserPujaProgress.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\UserSavedEvent.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\UserStepNote.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\entity\VideoBookmark.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\exception\GlobalExceptionHandler.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\AiFeedbackRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\AiQueryLogRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\HinduFestivalRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\MantraRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\NotificationLogRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\PanchangCacheRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\PdfAnnotationRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\PujaRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\PujaStepRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\ResourceRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\UserHighlightRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\UserNotificationPreferencesRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\UserPujaProgressRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\UserRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\UserSavedEventRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\UserStepNoteRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\repository\VideoBookmarkRepository.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\scheduler\NotificationScheduler.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\service\AIService.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\service\AuthService.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\service\FCMService.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\service\PanchangService.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\service\ProgressService.java
+C:\Users\chakr\OneDrive\Desktop\AI_Powered_Java_Backend\purohit-darpan-backend\backend-20260321T020653Z-3-001\backend\src\main\java\com\purohitdarpan\service\UserDetailsServiceImpl.java
