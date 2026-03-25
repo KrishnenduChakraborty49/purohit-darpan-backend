@@ -7,6 +7,9 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "pujas")
@@ -47,10 +50,12 @@ public class Puja {
     @Builder.Default
     private Boolean isActive = true;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "created_by")
     private User createdBy;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "puja", cascade = CascadeType.ALL, orphanRemoval = true)
     @OrderBy("stepOrder ASC")
     private List<PujaStep> steps;
@@ -62,6 +67,16 @@ public class Puja {
     @UpdateTimestamp
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
+
+    @JsonIgnore
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
+    @JsonIgnore
+    public List<PujaStep> getSteps() {
+        return steps;
+    }
 
     public enum Difficulty { BEGINNER, INTERMEDIATE, ADVANCED }
 }

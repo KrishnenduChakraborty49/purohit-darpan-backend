@@ -20,7 +20,7 @@ public class PujaStep {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "puja_id", nullable = false)
     private Puja puja;
 
@@ -42,7 +42,7 @@ public class PujaStep {
     @Column(name = "video_transcript", columnDefinition = "LONGTEXT")
     private String videoTranscript;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "pdf_resource_id")
     private Resource pdfResource;
 
