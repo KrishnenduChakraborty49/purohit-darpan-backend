@@ -4,11 +4,11 @@ spring:
   profiles:
     active: prod
   datasource:
-    # Render provides DATABASE_URL, but Spring Boot needs jdbc: prefix. 
-    # This config is smart enough to handle both.
-    url: ${JDBC_DATABASE_URL:${DATABASE_URL:jdbc:postgresql://dpg-d738kqffte5s73et8ar0-a/purohit_db_kd3e}}
+    # This uses the individual pieces from Render which is 100% reliable
+    url: jdbc:postgresql://$:$/$
+    username: $
+    password: $
     driver-class-name: org.postgresql.Driver
-    # Spring Boot will automatically use the username/password from the URL if provided
     hikari:
       maximum-pool-size: 10
   jpa:
@@ -22,10 +22,10 @@ spring:
       mode: never
 
 server:
-  port: ${PORT:8080}
+  port: $
 
 jwt:
-  secret: ${JWT_SECRET:purohit-darpan-secure-key-2026-fallback-only}
+  secret: $
   expiration: 86400000
 
 cors:
