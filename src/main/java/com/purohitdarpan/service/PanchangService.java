@@ -119,7 +119,8 @@ public class PanchangService {
     private PanchangCache generateMockPanchang(LocalDate date) {
         // Simplified tithi calculation: lunar day based on days from a known new moon
         // Reference new moon: Jan 29, 2025 (Amavasya)
-        LocalDate referenceNewMoon = LocalDate.of(2025, 1, 29);
+        // Reference new moon: Aligned so Mar 27 2026 is Navami
+        LocalDate referenceNewMoon = LocalDate.of(2026, 3, 18);
         long daysSince = date.toEpochDay() - referenceNewMoon.toEpochDay();
         int lunarDay = (int) (daysSince % 30);
         if (lunarDay < 0) lunarDay += 30;
@@ -221,3 +222,4 @@ public class PanchangService {
                 .build();
     }
 }
+
